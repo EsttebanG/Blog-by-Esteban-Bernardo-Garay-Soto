@@ -1,0 +1,200 @@
+@keyframes gradient {
+    0% {
+        background-color: #0a0200;
+    }
+    2% {
+        background-color: #060131;
+    }
+    4% {
+        background-color: #0a0200;
+    }
+    6% {
+        background-color: #060131;
+    }
+    8% {
+        background-color: #0a0200;
+    }
+    10% {
+        background-color: #060131;
+    }
+    12% {
+        background-color: #0a0200;
+    }
+    14% {
+        background-color: #060131;
+    }
+    16% {
+        background-color: #0a0200;
+    }
+    18% {
+        background-color: #060131;
+    }
+    20% {
+        background-color: #0a0200;
+    }
+    22% {
+        background-color: #060131;
+    }
+    24% {
+        background-color: #0a0200;
+    }
+    30% {
+        background-color: #060131;
+    }
+    32% {
+        background-color: #0a0200;
+    }
+    34% {
+        background-color: #060131;
+    }
+    36% {
+        background-color: #0a0200;
+    }
+    38% {
+        background-color: #060131;
+    }
+    40% {
+        background-color: #0a0200;
+    }
+    42% {
+        background-color: #060131;
+    }
+    44% {
+        background-color: #0a0200;
+    }
+    46% {
+        background-color: #060131;
+    }
+    48% {
+        background-color: #0a0200;
+    }
+    50% {
+        background-color: #060131;
+    }
+    52% {
+        background-color: #0a0200;
+    }
+    54% {
+        background-color: #060131;
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: gradient 10s infinite;
+    background-size: 400% 400%;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff5f6d;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro, .post {
+    background-color: #fff;
+    margin: 1em 0;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    transition: transform 0.2s, background-color 0.5s;
+}
+
+.intro:hover, .post:hover {
+    transform: scale(1.05);
+    background-color: #ffe8e8;
+}
+
+.post h2 {
+    color: #ff5f6d;
+    margin-top: 0;
+}
+
+video, audio {
+    width: 100%;
+    margin-top: 1em;
+}
+
+a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #ff5f6d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+a:hover {
+    background-color: #e04e58;
+}
+
+.carousel {
+    width: 80%;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide {
+    display: flex;
+    width: calc(100% * 5); /* ajustar el número al total de imágenes */
+}
+
+.carousel-item {
+    flex: 0 0 20%; /* ajustar el porcentaje según el número de imágenes */
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
